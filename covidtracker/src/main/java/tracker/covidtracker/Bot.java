@@ -22,7 +22,7 @@ public class Bot extends ListenerAdapter
 {
 	public static void main(String[] args) throws LoginException
     {
-    	String token = "NzM3NzY1MDUwMTkzODA1MzM0.XyCHPg.tmlcsFXdSZROy_2xA48Afz6nCec";
+    	String token = "";
         
     	JDABuilder.createLight(token, GatewayIntent.GUILD_MESSAGES, GatewayIntent.DIRECT_MESSAGES)
         	.addEventListeners(new Bot())
